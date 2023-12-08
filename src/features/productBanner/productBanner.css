@@ -12,7 +12,113 @@
   position: absolute;
   bottom: 60px;
   left: 80px;
+  width: 50%;
 }
 .subscribe_email::placeholder {
   color: white;
+}
+.shop_collection {
+  margin-top: 20px;
+}
+.input_main{
+  margin-bottom: 15px;
+}
+@media only screen and (max-width: 980px) {
+  .top-left-banner {
+    position: absolute;
+    top: 8px;
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+  .bottom-left-banner {
+    position: absolute;
+    bottom: 60px;
+    left: 80px;
+    width: 80%;
+  }
+  .shop_collection {
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .bottom-left-banner {
+    position: absolute;
+    bottom: 10px;
+    left: 30px;
+    width: 85%;
+  }
+  .shop_collection {
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  .top-left-banner {
+    position: absolute;
+    top: 8px;
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+  .bottom-left-banner {
+    position: absolute;
+    bottom: 0px;
+    left: 30px;
+    width: 85%;
+  }
+  .shop_collection {
+    margin-top: -15px;
+  }
+  .product_banner_title{
+    font-size: 25px
+  }
+}
+@media only screen and (max-width: 430px) {
+  .top-left-banner {
+    position: absolute;
+    top: 5px;
+    padding-left: 5px;
+    padding-top: 0px;
+  }
+  .bottom-left-banner {
+    position: absolute;
+    bottom: 0px;
+    left: 20px;
+    width: 85%;
+  }
+  .shop_collection {
+    margin-top: -15px;
+  }
+  .product_banner_title{
+    font-size: 25px;
+    margin-top: -13px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .top-left-banner {
+    position: absolute;
+    top: 5px;
+    padding-left: 5px;
+    padding-top: 0px;
+  }
+  .bottom-left-banner {
+    position: absolute;
+    bottom: 0px;
+    left: 20px;
+    width: 85%;
+  }
+  .shop_collection {
+    margin-top: -15px;
+  }
+  .product_banner_title{
+    font-size: 25px;
+    margin-top: -8px;
+  }
+  .banner_heading{
+    margin-bottom: 0px;
+  }
+  .input_main{
+    margin-bottom: 0px;
+  }
 }

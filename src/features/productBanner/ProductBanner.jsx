@@ -12,10 +12,13 @@ const ProductBanner = () => {
         src="https://plus.unsplash.com/premium_photo-1678402545077-7a9ec2b5e5b8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       />
       <div className="top-left-banner fw-bold" style={{ fontSize: "14px" }}>
-        <p>10% OFF ALL TIMES</p>
-        <h1>Leave the season in</h1>
-        <h1>Furnob Style</h1>
-        <Button variant="link" className="mt-5 text-decoration-none text-white">
+        <p className="banner_heading">10% OFF ALL TIMES</p>
+        <h1 className="product_banner_title">Leave the season in</h1>
+        <h1 className="product_banner_title">Furnob Style</h1>
+        <Button
+          variant="link"
+          className="text-decoration-none text-white shop_collection"
+        >
           Shop Collection
           <svg
             fill="#fff"
@@ -65,19 +68,23 @@ const ProductBanner = () => {
         </Button>
       </div>
 
-      <div className="bottom-left-banner w-25">
-        <InputGroup className="mb-3">
+      <div className="bottom-left-banner">
+        <InputGroup className="input_main">
           <Form.Control
             placeholder="Enter Your Email Address"
             aria-label="Recipient's username"
             aria-describedby="basic-addon2"
             className="bg-transparent text-white subscribe_email"
           />
-          <Button variant="outline-light" id="button-addon2">
+          <Button
+            className="rounded-end"
+            variant="outline-light"
+            id="button-addon2"
+          >
             Send
           </Button>
         </InputGroup>
-        <p>
+        <p className="banner_policy">
           By subscribing to agree our
           <a href="#" className="text-white ms-1">
             Terms & Condition and Privacy & Cookies Policy.

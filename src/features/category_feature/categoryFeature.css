@@ -9,9 +9,11 @@
 }
 .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after{
   color: #dddddd;
+  margin-top: -60px
 }
 .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
   color: #dddddd;
+  margin-top: -60px
 }
 .swiper-pagination{
   position: relative !important;
