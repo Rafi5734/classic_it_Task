@@ -1,0 +1,18 @@
+.banner_main {
+  position: relative;
+  color: white;
+}
+.top-left-banner {
+  position: absolute;
+  top: 8px;
+  padding-left: 60px;
+  padding-top: 60px;
+}
+.bottom-left-banner {
+  position: absolute;
+  bottom: 60px;
+  left: 80px;
+}
+.subscribe_email::placeholder {
+  color: white;
+}

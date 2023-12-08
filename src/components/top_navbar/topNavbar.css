@@ -1,0 +1,21 @@
+.top_nav_main {
+  background-color: #006a78;
+  color: #fff;
+  font-size: 14px;
+}
+.days {
+  color: #000;
+  background-color: #fff;
+}
+.top_nav_wrapper{
+  display: flex;
+}
+
+@media only screen and (max-width: 420px) {
+  .top_nav_wrapper{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+  }
+}

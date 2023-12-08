@@ -1,0 +1,44 @@
+.carousel_item {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.carousel_text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+}
+
+@media only screen and (max-width: 1200px) {
+  .carousel_text {
+    margin-top: -50px;
+    width: 80%;
+  }
+  .bold_sentence {
+    text-wrap: nowrap;
+  }
+}
+
+@media only screen and (max-width: 765px) {
+  .bold_sentence {
+    font-weight: 400 !important;
+  }
+  .carousel_paragraph{
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .bold_sentence {
+    font-weight: 600 !important;
+    font-size: 22px;
+  }
+  .carousel_paragraph{
+    font-size: 13px;
+  }
+  .carousel_img{
+    height: 350px
+  }
+}
