@@ -45,14 +45,14 @@ const DealDiscount = () => {
               <h1 className="ms-2">
                 31
                 <span className="text-muted me-2" style={{ fontSize: "14px" }}>
-                  d
+                  h
                 </span>
               </h1>
               <p className="mt-2">:</p>
               <h1 className="ms-2">
                 31
                 <span className="text-muted me-2" style={{ fontSize: "14px" }}>
-                  d
+                  m
                 </span>
               </h1>
               <p className="mt-2">:</p>
@@ -62,7 +62,7 @@ const DealDiscount = () => {
                   className="me-2"
                   style={{ fontSize: "14px", color: "#EA7600" }}
                 >
-                  d
+                  s
                 </span>
               </h1>
             </div>
@@ -77,7 +77,7 @@ const DealDiscount = () => {
           <img
             alt="furniture"
             style={{ paddingRight: "70px" }}
-            className="img-fluid"
+            className="img-fluid rounded rounded-end"
             src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?q=80&w=2158&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           />
           <div className="top-left d-flex flex-column">

@@ -23,7 +23,7 @@ const BestSellingProduct = () => {
       <div>
         <Swiper
           slidesPerView={1}
-          spaceBetween={10}
+          spaceBetween={30}
           navigation={true}
           pagination={{
             clickable: true,
@@ -34,23 +34,23 @@ const BestSellingProduct = () => {
           breakpoints={{
             640: {
               slidesPerView: 2,
-              spaceBetween: 20,
+              spaceBetween: 30,
             },
             768: {
               slidesPerView: 3,
-              spaceBetween: 40,
+              spaceBetween: 30,
             },
             1024: {
               slidesPerView: 4,
-              spaceBetween: 50,
+              spaceBetween: 30,
             },
             1324: {
               slidesPerView: 4,
-              spaceBetween: 50,
+              spaceBetween: 30,
             },
             1800: {
               slidesPerView: 4,
-              spaceBetween: 50,
+              spaceBetween: 30,
             },
           }}
           modules={[Pagination, Navigation]}
