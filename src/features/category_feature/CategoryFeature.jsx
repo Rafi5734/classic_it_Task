@@ -57,7 +57,7 @@ const CategoryFeature = () => {
                     glareEnable={true}
                     glareMaxOpacity={0.45}
                     scale={1.02}
-                    gyroscope={true}
+                    gyroscope={false}
                   >
                     <Card style={{ width: "100%", backgroundColor: "#eeeeee" }}>
                       <Card.Img variant="top" src={productImage} />
@@ -80,7 +80,7 @@ const CategoryFeature = () => {
                     glareEnable={true}
                     glareMaxOpacity={0.45}
                     scale={1.02}
-                    gyroscope={true}
+                    gyroscope={false}
                   >
                     <Card style={{ width: "100%", backgroundColor: "#eeeeee" }}>
                       <Card.Img variant="top" src={productImage} />
@@ -103,7 +103,7 @@ const CategoryFeature = () => {
                     glareEnable={true}
                     glareMaxOpacity={0.45}
                     scale={1.02}
-                    gyroscope={true}
+                    gyroscope={false}
                   >
                     <Card style={{ width: "100%", backgroundColor: "#eeeeee" }}>
                       <Card.Img variant="top" src={productImage} />
@@ -126,7 +126,7 @@ const CategoryFeature = () => {
                     glareEnable={true}
                     glareMaxOpacity={0.45}
                     scale={1.02}
-                    gyroscope={true}
+                    gyroscope={false}
                   >
                     <Card style={{ width: "100%", backgroundColor: "#eeeeee" }}>
                       <Card.Img variant="top" src={productImage} />
@@ -149,7 +149,7 @@ const CategoryFeature = () => {
                     glareEnable={true}
                     glareMaxOpacity={0.45}
                     scale={1.02}
-                    gyroscope={true}
+                    gyroscope={false}
                   >
                     <Card style={{ width: "100%", backgroundColor: "#eeeeee" }}>
                       <Card.Img variant="top" src={productImage} />
@@ -172,7 +172,7 @@ const CategoryFeature = () => {
                     glareEnable={true}
                     glareMaxOpacity={0.45}
                     scale={1.02}
-                    gyroscope={true}
+                    gyroscope={false}
                   >
                     <Card style={{ width: "100%", backgroundColor: "#eeeeee" }}>
                       <Card.Img variant="top" src={productImage} />
@@ -195,7 +195,7 @@ const CategoryFeature = () => {
                     glareEnable={true}
                     glareMaxOpacity={0.45}
                     scale={1.02}
-                    gyroscope={true}
+                    gyroscope={false}
                   >
                     <Card style={{ width: "100%", backgroundColor: "#eeeeee" }}>
                       <Card.Img variant="top" src={productImage} />

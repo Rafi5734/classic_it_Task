@@ -17,8 +17,9 @@ const Footer = () => {
               <Col sm={12} md={12} lg={8}>
                 <h5>
                   {" "}
-                  <span>Shopping App </span> Lorem, ipsum dolor sit amet
-                  consectetur adipisicing elit. Delectus, praesentium.
+                  <span className="text-end">Shopping App </span> Lorem, ipsum
+                  dolor sit amet consectetur adipisicing elit. Delectus,
+                  praesentium.
                 </h5>
               </Col>
             </Row>

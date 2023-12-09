@@ -62,7 +62,7 @@ const BestProducts = () => {
               glareEnable={true}
               glareMaxOpacity={0.45}
               scale={1.02}
-              gyroscope={true}
+              gyroscope={false}
             >
               <Card
                 className="best_product_card"
@@ -287,7 +287,7 @@ const BestProducts = () => {
               glareEnable={true}
               glareMaxOpacity={0.45}
               scale={1.02}
-              gyroscope={true}
+              gyroscope={false}
             >
               <Card
                 className="best_product_card"
@@ -512,7 +512,7 @@ const BestProducts = () => {
               glareEnable={true}
               glareMaxOpacity={0.45}
               scale={1.02}
-              gyroscope={true}
+              gyroscope={false}
             >
               <Card
                 className="best_product_card"
@@ -737,7 +737,7 @@ const BestProducts = () => {
               glareEnable={true}
               glareMaxOpacity={0.45}
               scale={1.02}
-              gyroscope={true}
+              gyroscope={false}
             >
               <Card
                 className="best_product_card"
@@ -962,7 +962,7 @@ const BestProducts = () => {
               glareEnable={true}
               glareMaxOpacity={0.45}
               scale={1.02}
-              gyroscope={true}
+              gyroscope={false}
             >
               <Card
                 className="best_product_card"
