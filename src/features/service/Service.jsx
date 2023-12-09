@@ -21,7 +21,7 @@ const Service = () => {
                 </div>
               </div>
             </Col>
-            <Col sm={12} md={6} lg={4}>
+            <Col sm={12} md={6} lg={4} className="secondary_col">
               <div className="service_wrapper_card">
                 <div className="service_icon">
                   <img src={serviceIcon_1} alt="" />
@@ -32,7 +32,7 @@ const Service = () => {
                 </div>
               </div>
             </Col>
-            <Col sm={12} md={6} lg={4}>
+            <Col sm={12} md={6} lg={4} className="secondary_col">
               <div className="service_wrapper_card">
                 <div className="service_icon">
                   <img src={serviceIcon_3} alt="" />

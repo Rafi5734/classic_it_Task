@@ -59,3 +59,9 @@
 .news_card a:hover{
     color: #df590b ;
 }
+
+@media only screen and (max-width: 768px){
+    .secondary_col{
+        margin-top: 20px
+    }
+}

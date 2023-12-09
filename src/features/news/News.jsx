@@ -26,7 +26,7 @@ const News = () => {
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                   Facere asperiores deserunt.
                 </p>
-                <a href="#">
+                <a className="read_more_btn" href="#">
                   Read More{" "}
                   <svg
                     fill="#000000"
@@ -76,7 +76,7 @@ const News = () => {
                 </a>
               </div>
             </Col>
-            <Col sm={12} md={6} lg={4}>
+            <Col sm={12} md={6} lg={4} className="secondary_col">
               <div className="news_card">
                 <div className="news_card_img">
                   <img
@@ -140,7 +140,7 @@ const News = () => {
                 </a>
               </div>
             </Col>
-            <Col sm={12} md={6} lg={4}>
+            <Col sm={12} md={6} lg={4} className="secondary_col">
               <div className="news_card">
                 <div className="news_card_img">
                   <img
