@@ -3,8 +3,8 @@ import "./news.css";
 
 const News = () => {
   return (
-    <>
-      <Container className="mt-5 mb-5 work_container">
+    <Container>
+      <Container className="mt-5 mb-5 work_container overflow-hidden">
         <h3 className="text-center">Our News</h3>
         <p className="text-center" style={{ color: "#9296A3" }}>
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -207,7 +207,7 @@ const News = () => {
           </Row>
         </div>
       </Container>
-    </>
+    </Container>
   );
 };
 

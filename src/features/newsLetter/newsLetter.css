@@ -1,0 +1,62 @@
+.newsLetter{
+    background-color: #f9f8f4;
+    padding: 80px 0;
+}
+
+
+.newsLatter_wrapper h6{
+    color: #eb7d3d;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.newsLatter_wrapper h4{
+    color: #232222;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 32px;
+}
+.newsLatter_wrapper p{
+    color: #676767;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.newsLatter_wrapper .newsLatter_form h5{
+    font-size: 13px;
+    color: #939292;
+    font-weight: 400;
+    padding-top: 20px;
+}
+.newsLatter_wrapper .newsLatter_form h5 span{
+    font-weight: 500;
+    color: #333;
+    font-size: 15px;
+}
+.newsLatter_wrapper .newsLatter_form i{
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.newsLatter_wrapper .newsLatter_input{
+    position: relative;
+
+}
+.item_center{
+    align-items: center;
+}
+
+.newsLatter_wrapper .newsLatter_input .form-control{
+  border: none;
+  border-bottom: 3px solid #333;
+  border-radius: 0px;
+  background-color: transparent;
+  padding: 8px 0;
+}
+.newsLatter_wrapper .newsLatter_input .form-control::placeholder{
+    font-size: 14px;
+}
+.newsLatter_wrapper .newsLatter_input .form-control:focus{
+    box-shadow: none;
+}

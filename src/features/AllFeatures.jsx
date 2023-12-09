@@ -5,8 +5,11 @@ import CategoryFeature from "./category_feature/CategoryFeature";
 import Customer from "./customer/Customer";
 import DealDiscount from "./deal&discount/DealDiscount";
 import DisplayFeature from "./display_feature/DisplayFeature";
+import Footer from "./footer/footer";
 import News from "./news/News";
+import NewsLetter from "./newsLetter/NewsLetter";
 import ProductBanner from "./productBanner/ProductBanner";
+import Service from "./service/Service";
 
 const AllFeatures = () => {
   return (
@@ -20,6 +23,9 @@ const AllFeatures = () => {
       <BannerSection2 />
       <Customer />
       <News />
+      <Service />
+      <NewsLetter />
+      <Footer />
     </div>
   );
 };
