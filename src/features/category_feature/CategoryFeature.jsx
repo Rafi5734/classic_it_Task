@@ -10,6 +10,7 @@ import Card from "react-bootstrap/Card";
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
 import productImage from "../../assets/product_img-removebg-preview.png";
 import "./categoryFeature.css";
+import Tilt from "react-parallax-tilt";
 const CategoryFeature = () => {
   return (
     <Container className="mt-5 mb-5">
@@ -50,134 +51,165 @@ const CategoryFeature = () => {
                 className="mySwiper"
               >
                 <SwiperSlide className="swiper_sliders">
-                  <Card style={{ width: "100%", backgroundColor: "#eeeeee" }}>
-                    <Card.Img variant="top" src={productImage} />
-                    <Card.Body>
-                      <p className="text-center fs-6 fw-bold">Living Room</p>
-                      <Card.Text
-                        className="text-center"
-                        style={{ fontSize: "14px" }}
-                      >
-                        11 Items
-                      </Card.Text>
-                    </Card.Body>
-                  </Card>
+                  <Tilt
+                    className="parallax-effect-glare-scale"
+                    perspective={500}
+                    glareEnable={true}
+                    glareMaxOpacity={0.45}
+                    scale={1.02}
+                    gyroscope={true}
+                  >
+                    <Card style={{ width: "100%", backgroundColor: "#eeeeee" }}>
+                      <Card.Img variant="top" src={productImage} />
+                      <Card.Body>
+                        <p className="text-center fs-6 fw-bold">Living Room</p>
+                        <Card.Text
+                          className="text-center"
+                          style={{ fontSize: "14px" }}
+                        >
+                          11 Items
+                        </Card.Text>
+                      </Card.Body>
+                    </Card>
+                  </Tilt>
                 </SwiperSlide>
                 <SwiperSlide className="swiper_sliders">
-                  <Card style={{ width: "100%", backgroundColor: "#eeeeee" }}>
-                    <Card.Img variant="top" src={productImage} />
-                    <Card.Body>
-                      <p className="text-center fs-6 fw-bold">Bed Room</p>
-                      <Card.Text
-                        className="text-center"
-                        style={{ fontSize: "14px" }}
-                      >
-                        11 Items
-                      </Card.Text>
-                    </Card.Body>
-                  </Card>
+                  <Tilt
+                    className="parallax-effect-glare-scale"
+                    perspective={500}
+                    glareEnable={true}
+                    glareMaxOpacity={0.45}
+                    scale={1.02}
+                    gyroscope={true}
+                  >
+                    <Card style={{ width: "100%", backgroundColor: "#eeeeee" }}>
+                      <Card.Img variant="top" src={productImage} />
+                      <Card.Body>
+                        <p className="text-center fs-6 fw-bold">Living Room</p>
+                        <Card.Text
+                          className="text-center"
+                          style={{ fontSize: "14px" }}
+                        >
+                          11 Items
+                        </Card.Text>
+                      </Card.Body>
+                    </Card>
+                  </Tilt>
                 </SwiperSlide>
                 <SwiperSlide className="swiper_sliders">
-                  <Card style={{ width: "100%", backgroundColor: "#eeeeee" }}>
-                    <Card.Img variant="top" src={productImage} />
-                    <Card.Body>
-                      <p className="text-center fs-6 fw-bold">
-                        Business Solution
-                      </p>
-                      <Card.Text
-                        className="text-center"
-                        style={{ fontSize: "14px" }}
-                      >
-                        11 Items
-                      </Card.Text>
-                    </Card.Body>
-                  </Card>
+                  <Tilt
+                    className="parallax-effect-glare-scale"
+                    perspective={500}
+                    glareEnable={true}
+                    glareMaxOpacity={0.45}
+                    scale={1.02}
+                    gyroscope={true}
+                  >
+                    <Card style={{ width: "100%", backgroundColor: "#eeeeee" }}>
+                      <Card.Img variant="top" src={productImage} />
+                      <Card.Body>
+                        <p className="text-center fs-6 fw-bold">Living Room</p>
+                        <Card.Text
+                          className="text-center"
+                          style={{ fontSize: "14px" }}
+                        >
+                          11 Items
+                        </Card.Text>
+                      </Card.Body>
+                    </Card>
+                  </Tilt>
                 </SwiperSlide>
                 <SwiperSlide className="swiper_sliders">
-                  <Card style={{ width: "100%", backgroundColor: "#eeeeee" }}>
-                    <Card.Img variant="top" src={productImage} />
-                    <Card.Body>
-                      <p className="text-center fs-6 fw-bold">Home Office</p>
-                      <Card.Text
-                        className="text-center"
-                        style={{ fontSize: "14px" }}
-                      >
-                        11 Items
-                      </Card.Text>
-                    </Card.Body>
-                  </Card>
+                  <Tilt
+                    className="parallax-effect-glare-scale"
+                    perspective={500}
+                    glareEnable={true}
+                    glareMaxOpacity={0.45}
+                    scale={1.02}
+                    gyroscope={true}
+                  >
+                    <Card style={{ width: "100%", backgroundColor: "#eeeeee" }}>
+                      <Card.Img variant="top" src={productImage} />
+                      <Card.Body>
+                        <p className="text-center fs-6 fw-bold">Living Room</p>
+                        <Card.Text
+                          className="text-center"
+                          style={{ fontSize: "14px" }}
+                        >
+                          11 Items
+                        </Card.Text>
+                      </Card.Body>
+                    </Card>
+                  </Tilt>
                 </SwiperSlide>
                 <SwiperSlide className="swiper_sliders">
-                  <Card style={{ width: "100%", backgroundColor: "#eeeeee" }}>
-                    <Card.Img variant="top" src={productImage} />
-                    <Card.Body>
-                      <p className="text-center fs-6 fw-bold">Lighting</p>
-                      <Card.Text
-                        className="text-center"
-                        style={{ fontSize: "14px" }}
-                      >
-                        11 Items
-                      </Card.Text>
-                    </Card.Body>
-                  </Card>
+                  <Tilt
+                    className="parallax-effect-glare-scale"
+                    perspective={500}
+                    glareEnable={true}
+                    glareMaxOpacity={0.45}
+                    scale={1.02}
+                    gyroscope={true}
+                  >
+                    <Card style={{ width: "100%", backgroundColor: "#eeeeee" }}>
+                      <Card.Img variant="top" src={productImage} />
+                      <Card.Body>
+                        <p className="text-center fs-6 fw-bold">Living Room</p>
+                        <Card.Text
+                          className="text-center"
+                          style={{ fontSize: "14px" }}
+                        >
+                          11 Items
+                        </Card.Text>
+                      </Card.Body>
+                    </Card>
+                  </Tilt>
                 </SwiperSlide>
                 <SwiperSlide className="swiper_sliders">
-                  <Card style={{ width: "100%", backgroundColor: "#eeeeee" }}>
-                    <Card.Img variant="top" src={productImage} />
-                    <Card.Body>
-                      <p className="text-center fs-6 fw-bold">
-                        Home Decoration
-                      </p>
-                      <Card.Text
-                        className="text-center"
-                        style={{ fontSize: "14px" }}
-                      >
-                        11 Items
-                      </Card.Text>
-                    </Card.Body>
-                  </Card>
+                  <Tilt
+                    className="parallax-effect-glare-scale"
+                    perspective={500}
+                    glareEnable={true}
+                    glareMaxOpacity={0.45}
+                    scale={1.02}
+                    gyroscope={true}
+                  >
+                    <Card style={{ width: "100%", backgroundColor: "#eeeeee" }}>
+                      <Card.Img variant="top" src={productImage} />
+                      <Card.Body>
+                        <p className="text-center fs-6 fw-bold">Living Room</p>
+                        <Card.Text
+                          className="text-center"
+                          style={{ fontSize: "14px" }}
+                        >
+                          11 Items
+                        </Card.Text>
+                      </Card.Body>
+                    </Card>
+                  </Tilt>
                 </SwiperSlide>
                 <SwiperSlide className="swiper_sliders">
-                  <Card style={{ width: "100%", backgroundColor: "#eeeeee" }}>
-                    <Card.Img variant="top" src={productImage} />
-                    <Card.Body>
-                      <p className="text-center fs-6 fw-bold">Living Room</p>
-                      <Card.Text
-                        className="text-center"
-                        style={{ fontSize: "14px" }}
-                      >
-                        11 Items
-                      </Card.Text>
-                    </Card.Body>
-                  </Card>
-                </SwiperSlide>
-                <SwiperSlide className="swiper_sliders">
-                  <Card style={{ width: "100%", backgroundColor: "#eeeeee" }}>
-                    <Card.Img variant="top" src={productImage} />
-                    <Card.Body>
-                      <p className="text-center fs-6 fw-bold">Living Room</p>
-                      <Card.Text
-                        className="text-center"
-                        style={{ fontSize: "14px" }}
-                      >
-                        11 Items
-                      </Card.Text>
-                    </Card.Body>
-                  </Card>
-                </SwiperSlide>
-                <SwiperSlide className="swiper_sliders">
-                  <Card style={{ width: "100%", backgroundColor: "#eeeeee" }}>
-                    <Card.Img variant="top" src={productImage} />
-                    <Card.Body>
-                      <p className="text-center fs-6 fw-bold">Living Room</p>
-                      <Card.Text
-                        className="text-center"
-                        style={{ fontSize: "14px" }}
-                      >
-                        11 Items
-                      </Card.Text>
-                    </Card.Body>
-                  </Card>
+                  <Tilt
+                    className="parallax-effect-glare-scale"
+                    perspective={500}
+                    glareEnable={true}
+                    glareMaxOpacity={0.45}
+                    scale={1.02}
+                    gyroscope={true}
+                  >
+                    <Card style={{ width: "100%", backgroundColor: "#eeeeee" }}>
+                      <Card.Img variant="top" src={productImage} />
+                      <Card.Body>
+                        <p className="text-center fs-6 fw-bold">Living Room</p>
+                        <Card.Text
+                          className="text-center"
+                          style={{ fontSize: "14px" }}
+                        >
+                          11 Items
+                        </Card.Text>
+                      </Card.Body>
+                    </Card>
+                  </Tilt>
                 </SwiperSlide>
               </Swiper>
             </div>
