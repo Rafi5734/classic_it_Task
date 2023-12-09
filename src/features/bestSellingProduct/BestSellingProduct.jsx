@@ -6,7 +6,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import Card from "react-bootstrap/Card";
-import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
+import { Navigation, Pagination } from "swiper/modules";
 import "./bestSellingProduct.css";
 import ProgressBar from "react-bootstrap/ProgressBar";
 import productImage from "../../assets/product_img-removebg-preview.png";

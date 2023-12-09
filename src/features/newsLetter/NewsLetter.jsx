@@ -1,8 +1,5 @@
 import { Col, Container, Row } from "react-bootstrap";
 import "./newsLetter.css";
-import serviceIcon_1 from "../../assets/service-1.png";
-import serviceIcon_2 from "../../assets/service-2.png";
-import serviceIcon_3 from "../../assets/service-3.png";
 import Form from "react-bootstrap/Form";
 
 const NewsLetter = () => {
